@@ -5,18 +5,22 @@
 }
 
 body {
+    background-color: #5995DA;
     font-family: "Lato", serif;
     font-weight: bold;
     text-align: center;
 }
 
 .main {
-    background-image: url("/train-zurich-lake-zug.jpg");
+    background-image: url("train-zurich-lake-zug.jpg");
     background-size: cover;
     width: 720px;
     height: 480px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 50px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black ; 
 }
 
 h1 {
@@ -35,12 +39,12 @@ h2 {
 }
 
 button {
-    border: none;
+    margin-left: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 195px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
@@ -48,28 +52,34 @@ button {
 #increment-btn {
     background: #8b1010;
     border: 2px solid #FFF;
+    box-shadow: 0 0 8px #8b1010;
 }
 #increment-btn:active {
     background: #fff;
     color: #8b1010;
     border: 2px solid #8b1010;
+    box-shadow: 0 0 8px #8b1010;
+    box-shadow: 0 0 16px #FFF;
 }
 
 #save-btn {
     background: #005000;
     border: 2px solid #FFF;
+    box-shadow: 0 0 8px #005000;
 }
 
 #save-btn:active {
     background: #FFF;
     color: #005000;
     border: 2px solid #005000;
+    box-shadow: 0 0 16px #FFF;
     
 }
 
 #clear-btn{
     background-color: #808080;
     border: 2px solid #FFF;
+    box-shadow: 0 0 8px #000;
 }
 
 
